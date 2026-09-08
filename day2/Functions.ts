@@ -21,8 +21,9 @@ console.log(loginUser('Vardhan', 939107))
 //logindetails("vardhan","vardhan@gmail.com","VardhanVardhan");
 
 console.log(logindetails("vardhan","vardhan@gmail.com","VardhanVardhan"));
+
 // Using arrow functions
-let loginUse = (name:string, isPail:boolean)=>{
+let loginUse =(name:string, isPail:boolean)=>{
     return `${name}, ${isPail}`
 };
 

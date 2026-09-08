@@ -12,11 +12,12 @@ function fun(){
 
     let add:number=22;
     let add1:number=23;
+    let add3:number=add+add1;
     
 
     console.log(Myname.charCodeAt(0));
     console.log(Myname.concat(Vardhan1));
-    return `add+add1`
+    return add3;
 }
 
 console.log(fun);

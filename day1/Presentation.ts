@@ -1,6 +1,6 @@
 var dat = "Hello, world!";
 //dat = 42; // This code compiles without errors.
-//datas = true; // This code compiles as well.
+//dat = true; // This code compiles as well.
 console.log(dat); // it will print the last assigned value 
 // Any type
 
